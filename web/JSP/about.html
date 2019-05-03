@@ -1,0 +1,153 @@
+<!DOCTTBE html>
+<html>
+    <head>
+        <style>
+            #mainID{height: 800px;
+                    width: 1000px;
+                    background-color: ;
+                    position: absolute;
+                    right:170px;
+                    bottom: 0px;
+                    top:.25px;
+                    background:url(../images/about.jpg);			
+
+            }
+            .ourPage{float: left;
+                     list-style-type: none;
+
+                     background-color: ;
+                     margin: 10px;}
+            #mainNiv{width: 960px;
+                     height: 60px;
+                     margin-left: auto;
+                     margin-right: auto;
+                     background-color: ;
+
+                     position: absolute;
+                     bottom:750px;
+                     left: 5px;
+
+            }
+            @media only screen and (max-width: 960px) {
+                #mainID,.ourPage,#mainNiv {                
+                    width: 100%;            
+                    height: 50%;
+                }}
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: black;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color:lightgray;
+                border-radius:  90px 90px 90px 90px;
+            }
+            #textID{background-color: aqua;
+                    width: 500px;
+                    height: 400px;
+                    position: absolute;
+                    top:250px;
+                    border-radius:  0px 90px 00px 90px;
+                    left: 10px;
+            }
+            #text{margin: 10px;
+                  font-size: 30px;}
+
+            #tweticon{position: absolute;
+                      top: 178px;
+                      left: 550px;
+                      border: 2px solid red;
+                      background-color:
+                          black;border-radius:  400px 400px 400px 400px;
+                      animation: moveanimation 3s;
+                      animation-iteration-count: infinite;}
+
+            #instaicon{position: absolute;
+                       top: 178px;
+                       left: 380px;
+                       border: 2px solid red;
+                       background-color:
+                           black;border-radius:  400px 400px 400px 400px;
+                       animation: moveanimation 3s;
+                       animation-iteration-count: infinite;}
+
+
+            #faceicon{
+                position: absolute;
+                top: 180px;
+                left: 115px;
+                border: 2px solid red;
+                background-color:
+                    black;border-radius:  400px 400px 400px 400px;
+                animation: moveanimation 3s;
+                animation-iteration-count: infinite;}
+            @keyframes moveanimation {
+
+                0%{
+                    border: 2px solid red;
+
+                }
+                25%{border: 2px solid aqua;}
+
+
+                50%{
+
+                    border: 2px solid red;
+
+                }
+                100%{	border: 2px solid bisque;}
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="mainID">
+            <nav id="mainNiv">
+                <ul id="navmenu">
+
+                    <li class="ourPage"><a href="about.html" >ABOUT</a></li>
+                    <li class="ourPage"><a href="contact.html" target="_blank">CONTACT</a></li>
+
+                </ul>
+
+
+
+
+            </nav>
+
+            <div id="textID">
+
+                <h6 id="text">
+                    i'am john philip. at 2014 joined the faculty of Computer Scince at 6OC University 
+                    ..I'am web developer I have a Web Disign course from AUC Universite and also I have English course from 
+                    AUC Universite . and a JAVA courses from the Ministry of Defense ...
+                </h6>
+
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100012751623317"  target="_blank" >
+                <img src="../images/facebook.png" id="faceicon"></div>
+            </a>
+
+
+            <a href="https://www.instagram.com/john__philip/" target="_blank">	
+                <img src="../images/instgram.png" id="instaicon" >
+            </a>
+
+
+            <a href="https://twitter.com/johnphilip20000" target="_blank"><img src="../images/twter.jpg" id="tweticon"></a>
+        </div>
+
+    </body>
+
+</html>

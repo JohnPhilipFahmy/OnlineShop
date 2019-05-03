@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{}
+
+
+            #mainDiv{
+                height: 800px;
+                width: 800px;
+
+                position: absolute;
+                right:250px;
+                bottom: 0px;
+                top:.25px;
+                background:url(../images/tlephone.jpg);}
+
+
+            .ourPage{float: left;
+                     list-style-type: none;
+
+
+                     margin: 10px;}
+
+
+            #mainNiv{width: 960px;
+                     height: 60px;
+                     margin-left: auto;
+                     margin-right: auto;
+
+
+                     position: absolute;
+                     bottom:750px;
+                     left: 5px;
+
+            }
+
+
+
+            li {
+                float: left;
+            }
+
+
+
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+
+
+            li a:hover {
+                background-color:lightgray;
+                border-radius:  90px 90px 90px 90px;
+            }
+
+
+            #textID{background-color: aqua;
+                    width: 500px;
+                    height: 400px;
+                    position: absolute;
+                    top:250px;
+                    border-radius:  0px 90px 00px 90px;
+                    left: 10px;
+            }
+
+
+
+            #phonenumber{
+                width: 210px;
+                height: 50px;
+
+                position: absolute;
+                top:260px;
+                left: -10px;
+            }
+
+
+
+            #number{position: absolute;
+                    bottom: -10.5px;
+                    left: 80px;
+
+            }
+
+
+            #phoneicon{
+                position: absolute;
+                left: 05px;
+                border-radius: 40px 40px 40px 40px;
+                border: 2px solid red;animation: moveanimation 1s;
+                animation-iteration-count: infinite;}
+
+
+            #whatsupnumber{
+                width: 210px;
+                height: 50px;
+
+                position: absolute;
+                top:360px;
+                left: -10px;
+            }
+
+            #whatsupicon{
+                position: absolute;
+                left: 05px;
+                border-radius: 10px 10px 10px 10px;
+                border: 2px solid red;animation: moveanimation 1s;
+                animation-iteration-count: infinite;}
+
+
+            #gmailadrees{
+                width: 210px;
+                height: 50px;
+
+                position: absolute;
+                top: 460px;
+                left: -10px;}
+
+            #gmailicon{
+                position: absolute;
+                left: 05px;
+                border-radius: 10px 10px 10px 10px;
+                border: 2px solid red;animation: moveanimation 1s;
+                animation-iteration-count: infinite;}
+
+
+            #adres{position: absolute;
+                   bottom: -10.5px;
+                   left: 60px;}
+
+
+            @keyframes moveanimation {
+
+                0%{
+                    border: 2px solid red;
+
+                }
+
+                25%{
+                    border: 2px solid aqua;
+                }
+
+
+                50%{
+
+                    border: 2px solid blue;
+
+                }
+
+                100%{
+                    border: 2px solid bisque;
+                }
+
+            }
+
+        </style>
+        <link rel="icon" href="facebook.png" type="image/x-icon">
+    </head>
+    <body>
+        <div id="mainDiv">
+
+            <nav id="mainNiv">
+
+                <ul id="navmenu">
+
+
+                    <li class="ourPage"><a href="about.html"  target="_blank">ABOUT</a>
+                    </li>
+
+
+                    <li class="ourPage"><a href="contact.html">CONTACT</a>
+                    </li>
+
+                    
+
+
+                </ul>
+
+
+
+
+            </nav>
+
+
+            <div id="phonenumber"><img src="../images/phone.png" id="phoneicon"><h3 id="number">01211250222</h3>
+            </div>
+
+            <div id="whatsupnumber"><img src="../images/whatsapp-logo.jpg" id="whatsupicon"><h3 id="number">01211250222</h3></div>
+
+            <div id="gmailadrees"><img src="../images/gmailicon.png" id="gmailicon"><h4 id="adres">gohnphilip20000@gmail.com</h4>
+            </div>
+
+
+        </div>
+    </body>
+
+</html>
